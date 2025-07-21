@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  /* COLORS */
+  --color-teal: #567c8d;
+  --color-navy: #2f4156;
+  --color-beige: #f5efeb;
+  --color-blue-sky: #c8d9e6;
+  --color-teal-light: #b7d0d9;
+
+  /* FONTS */
+  --font-primary: "Urbanist", "sans-serif";
+  --font-secondary: "Inter", "sans-serif";
+}

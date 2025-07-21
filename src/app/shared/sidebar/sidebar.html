@@ -1,0 +1,23 @@
+<div class="container p-8">
+  <div id="header-sidebar" class="flex">
+    <span
+      id="logo"
+      class="text-white text-3xl font-primary font-bold antialiased"
+      >Organize.me</span
+    >
+  </div>
+
+  <div class="main-sidebar pt-16 flex flex-col gap-10">
+    <app-link-sidebar [iconLink]="'phosphorHouse'" [nameLink]="'Ínicio'" />
+    <app-link-sidebar
+      [iconLink]="'phosphorCalendarDots'"
+      [nameLink]="'Meus Agendamentos'"
+    />
+    <app-link-sidebar
+      [iconLink]="'phosphorCalendarPlus'"
+      [nameLink]="'Novo Agendamento'"
+    />
+    <app-link-sidebar [iconLink]="'phosphorUser'" [nameLink]="'Meu Perfil'" />
+    <app-link-sidebar [iconLink]="'phosphorSignOut'" [nameLink]="'Sair'" />
+  </div>
+</div>
